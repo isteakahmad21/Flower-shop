@@ -1,217 +1,254 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .nav {
-  padding: 30px 10vw;
-  background: #56423d;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    padding: 30px 10vw;
+    background: #56423d;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  font-size: 1.5rem;
-  color: white;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 1.5rem;
+    color: white;
 }
 
 .logo {
-  font-size: 48px;
-  font-style: 800;
+    font-size: 48px;
+    font-style: 800;
 }
 
 .color-1 {
-  color: #e55473;
+    color: #e55473;
 }
 
 .color-2 {
-  color: white;
+    color: white;
 }
 
 /* banner style start */
 .banner {
-  height: 85vh;
+    height: 85vh;
 
-  background-color: rgba(229, 84, 115, 0.1);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-radius: 0 0 50px 50px;
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 50px 50px;
 }
 
 .banner-text h1 {
-  color: #272727;
+    color: #272727;
 
-  font-size: 5rem;
+    font-size: 5rem;
 
-  font-weight: 800;
+    font-weight: 800;
 }
 
 .banner-text p {
-  color: rgba(39, 39, 39, 0.6);
-  width: 630px;
-  padding: 40px 0;
+    color: rgba(39, 39, 39, 0.6);
+    width: 630px;
+    padding: 40px 0;
 
-  font-size: 18px;
+    font-size: 18px;
 
-  font-weight: 400;
-  line-height: 30px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .btn-primary {
-  padding: 20px 35px;
-  border-radius: 8px;
-  background-color: #e55473;
+    padding: 20px 35px;
+    border-radius: 8px;
+    background-color: #e55473;
 
-  color: #fff;
+    color: #fff;
 
-  font-size: 20px;
+    font-size: 20px;
 
-  font-weight: 700;
-  border: none;
+    font-weight: 700;
+    border: none;
 }
 
 .banner-img img {
-  width: 25vw;
+    width: 25vw;
 }
 
 /* banner style end */
 
 /* Featured section */
 .featured-flowers {
-  margin: 80px 0;
+    margin: 80px 0;
 }
 
 .featured-text {
-  text-align: center;
+    text-align: center;
 }
 
 .featured-text h2 {
-  color: #272727;
+    color: #272727;
 
-  font-size: 40px;
+    font-size: 40px;
 
-  font-weight: 800;
+    font-weight: 800;
 }
 
 .featured-text p {
-  margin: 30px auto;
-  width: 600px;
-  color: rgba(39, 39, 39, 0.6);
+    margin: 30px auto;
+    width: 600px;
+    color: rgba(39, 39, 39, 0.6);
 
-  font-size: 18px;
+    font-size: 18px;
 
-  font-weight: 400;
-  line-height: 30px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .flower-card-group {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .flower-card {
-  border-radius: 300px 300px 0px 0px;
-  background: rgba(167, 33, 98, 0.15);
-  width: 464px;
-  height: 530px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flower-card img {
-  width: 310px;
+    width: 310px;
 }
 
 .card p {
-  color: #272727;
+    color: #272727;
 
-  font-size: 24px;
+    font-size: 24px;
 
-  font-weight: 700;
+    font-weight: 700;
 
-  text-decoration-line: underline;
+    text-decoration-line: underline;
 
-  padding-top: 10px;
-  padding-bottom: 3px;
+    padding-top: 10px;
+    padding-bottom: 3px;
 }
 
 /* Featured end */
 /* Business-policy start */
 .business-policy {
-  border-radius: 15px;
-  background-color: rgba(39, 39, 39, 0.05);
-  width: 80vw;
-  height: 320px;
+    border-radius: 15px;
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 80vw;
+    height: 320px;
 
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
 }
 
 .b-p {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 /* Business-policy End */
 /* Hot deal start */
 .hot-deal {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 100px 0;
-  border-radius: 8px;
-  background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
 }
 
 .hot-deal-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
 }
 
 .hot-deal-text h2 {
-  color: #272727;
+    color: #272727;
 
-  font-size: 40px;
+    font-size: 40px;
 
-  font-weight: 800;
+    font-weight: 800;
 }
 
 .hot-deal-text p {
-  width: 590px;
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
-  padding: 25px 0;
+    width: 590px;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    padding: 25px 0;
 
-  font-size: 18px;
+    font-size: 18px;
 
-  font-weight: 400;
-  line-height: 30px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .hot-deal-img img {
-  width: 318;
+    width: 318;
 }
 
 /* Hot deal End */
+/* Insta start */
+.insta-sec {
+    margin-bottom: 40px;
+}
+
+.insta-sec-text h3 {
+    color: #272727;
+    text-align: center;
+
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.insta-sec-text p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    width: 600px;
+    margin: 30px auto;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.insta-img-grp {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.insta-img-grp img {
+    width: 16vw;
+}
+
+/* Insta End */
